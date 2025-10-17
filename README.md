@@ -12,22 +12,33 @@
 
 ## 🌟 Features | المميزات
 
-### 💼 Core Business Features
-- **Point of Sale (POS)** with barcode support and receipt printing
-- **Inventory Management** with stock alerts and barcode generation
-- **Customer & Supplier Management** with debt tracking
-- **Multi-branch** support with role-based access control
-- **Expense Tracking** with categorization and reporting
-- **Employee Management** with attendance and performance tracking
+### 💼 Core Business Features | الميزات الأساسية
+- **نقطة البيع (POS)** مع دعم الباركود وطباعة الفواتير
+  - **Point of Sale (POS)** with barcode support and receipt printing
+- **إدارة المخزون** مع تنبيهات المخزون وإنشاء الباركود
+  - **Inventory Management** with stock alerts and barcode generation
+- **إدارة العملاء والموردين** مع تتبع الديون
+  - **Customer & Supplier Management** with debt tracking
+- **دعم الفروع المتعددة** مع التحكم في الصلاحيات
+  - **Multi-branch** support with role-based access control
+- **تتبع المصروفات** مع التصنيف وإعداد التقارير
+  - **Expense Tracking** with categorization and reporting
+- **إدارة الموظفين** مع تتبع الحضور والأداء
+  - **Employee Management** with attendance and performance tracking
 
-### 🛠 Technical Features
-- **Modern Architecture**: Clean Architecture + MVVM
-- **Offline-First**: Works without internet connection
-- **Data Sync**: Secure cloud synchronization
-- **Security**: Role-based access control, data encryption
-- **Multi-language**: Full Arabic and English support
+### 🛠 Technical Features | الميزات التقنية
+- **هندسة معمارية عصرية**: Clean Architecture + MVVM
+  - **Modern Architecture**: Clean Architecture + MVVM
+- **العمل دون اتصال**: يعمل بدون اتصال بالإنترنت
+  - **Offline-First**: Works without internet connection
+- **مزامنة البيانات**: مزامنة سحابية آمنة
+  - **Data Sync**: Secure cloud synchronization
+- **الأمان**: تحكم في الصلاحيات، تشفير البيانات
+  - **Security**: Role-based access control, data encryption
+- **متعدد اللغات**: يدعم العربية والإنجليزية بشكل كامل
+  - **Multi-language**: Full Arabic and English support
 
-## 🏗 Project Structure
+## 🏗 Project Structure | هيكل المشروع
 
 ```
 com.businessmanagement/
@@ -53,14 +64,28 @@ com.businessmanagement/
 └── navigation/                    # Navigation components
 ```
 
-## 🚀 Getting Started
+## 🚀 Getting Started | البدء
 
-### Prerequisites
+### Prerequisites | المتطلبات الأساسية
 - Android Studio (Arctic Fox+)
 - Android SDK 21+
 - Kotlin 1.5.0+
 
-### Installation
+### المتطلبات الأساسية
+- أندرويد ستوديو (Arctic Fox+)
+- Android SDK 21 أو أحدث
+- Kotlin 1.5.0 أو أحدث
+
+### Installation | التثبيت
+1. استنسخ المستودع
+   ```bash
+   git clone https://github.com/yourusername/BusinessManagement.git
+   ```
+2. افتح المشروع في أندرويد ستوديو
+3. مزامنة المشروع مع ملفات Gradle
+4. شغل التطبيق على محاكي أو جهاز فعلي
+
+### التثبيت
 1. Clone the repository
    ```bash
    git clone https://github.com/yourusername/BusinessManagement.git
