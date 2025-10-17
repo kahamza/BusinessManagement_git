@@ -5,83 +5,55 @@ Welcome to the official documentation for the Business Management App. This docu
 ## 📑 Table of Contents
 
 ### 1. Project Overview
-- [Introduction](overview/01-introduction.md)
-- [Features](overview/02-features.md)
-- [Architecture](overview/03-architecture.md)
-- [Tech Stack](overview/04-tech-stack.md)
+- [Architecture Overview](overview/03-architecture.md)
 
 ### 2. Getting Started
 - [Setup Guide](getting-started/01-setup.md)
-- [Configuration](getting-started/02-configuration.md)
-- [Running the App](getting-started/03-running.md)
 
-### 3. Architecture
-- [Clean Architecture](architecture/01-clean-architecture.md)
-- [MVVM Pattern](architecture/02-mvvm-pattern.md)
-- [Data Flow](architecture/03-data-flow.md)
-- [Dependency Injection](architecture/04-dependency-injection.md)
+### 3. Architecture & Infrastructure
+- [Cloud Sync & Integration](architecture/05-cloud-sync.md)
 
-### 4. Features
+### 4. Core Features
 - [Point of Sale (POS)](features/01-pos.md)
-- [Inventory Management](features/02-inventory.md)
-- [Customer Management](features/03-customers.md)
-- [Supplier Management](features/04-suppliers.md)
-- [Employee Management](features/05-employees.md)
-- [Expense Tracking](features/06-expenses.md)
-- [Reporting](features/07-reports.md)
-- [Settings](features/08-settings.md)
+- [Online Orders & Integration](features/09-online-orders.md)
+- [Loyalty & Discounts](features/10-loyalty-and-discounts.md)
+- [Multi-Branch Management](features/11-branches.md)
+- [Face Recognition & Biometrics](features/12-face-recognition.md)
+- [Backup & Restore](features/13-backup-restore.md)
+- [Barcode & Printing](features/14-printing-barcode.md)
 
-### 5. Security
-- [Authentication](security/01-authentication.md)
-- [Authorization](security/02-authorization.md)
-- [Data Protection](security/03-data-protection.md)
-- [Compliance](security/04-compliance.md)
+### 5. Security & Authentication
+- [Authentication System](security/01-authentication.md)
+- [Role Management & Permissions](security/05-role-management.md)
 
-### 6. Development
-- [Coding Standards](development/01-coding-standards.md)
-- [Git Workflow](development/02-git-workflow.md)
-- [Testing](development/03-testing.md)
-- [Debugging](development/04-debugging.md)
+### 6. Integration & External Services
+- [Telegram Bot & n8n Integration](integration/01-telegram-n8n.md)
 
-### 7. Deployment
-- [Build Process](deployment/01-build-process.md)
-- [Release Management](deployment/02-release-management.md)
-- [App Store Guidelines](deployment/03-app-store-guidelines.md)
-
-### 8. API Reference
-- [Endpoints](api/01-endpoints.md)
-- [Data Models](api/02-data-models.md)
-- [Authentication](api/03-authentication.md)
-
-### 9. FAQ
-- [General Questions](faq/01-general.md)
-- [Troubleshooting](faq/02-troubleshooting.md)
-- [Common Issues](faq/03-common-issues.md)
-
-### 10. Contributing
+### 7. Contributing & Development
 - [How to Contribute](contributing/01-how-to-contribute.md)
-- [Code of Conduct](contributing/02-code-of-conduct.md)
-- [Pull Request Template](contributing/03-pull-request-template.md)
 
-## 📝 Documentation Guide
+### 8. Project Files
+- [Branch ID Migration Guide](branch_id_type_migration.md)
 
-This documentation is written in Markdown and can be viewed directly on GitHub or built into a static site using [MkDocs](https://www.mkdocs.org/).
+## 📝 Current Documentation Status
 
-### Building the Documentation
+This documentation reflects the **actual file structure** found in the project. The following directories contain comprehensive documentation:
 
-To build the documentation locally:
+- **features/**: 7 detailed feature files (167KB+ of documentation)
+- **security/**: Authentication and role management (48KB+)
+- **architecture/**: Cloud sync and integration (26KB+)
+- **integration/**: External service integrations (18KB+)
+- **getting-started/**: Setup and installation (12KB+)
+- **overview/**: Project architecture overview (11KB+)
+- **contributing/**: Development guidelines (8KB+)
 
-1. Install MkDocs:
-   ```bash
-   pip install mkdocs mkdocs-material
-   ```
+## 🚧 Documentation Development Status
 
-2. Serve the documentation locally:
-   ```bash
-   mkdocs serve
-   ```
-
-3. Open `http://127.0.0.1:8000` in your browser.
+The following sections are **planned but not yet created**:
+- **API Reference**: Endpoints, data models, authentication
+- **Development Guide**: Coding standards, testing, debugging
+- **Deployment Guide**: Build process, release management
+- **FAQ & Troubleshooting**: Common issues and solutions
 
 ## 📄 License
 
