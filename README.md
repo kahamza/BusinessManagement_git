@@ -212,3 +212,78 @@ com.businessmanagement/
 - 📖 **[دليل المساهمة](docs/contributing/01-how-to-contribute.md)**
 - 🔒 **[دليل الأمان](docs/security/01-authentication.md)**
 - ⚙️ **[دليل الإعداد](docs/getting-started/01-setup.md)**
+
+---
+
+## 📡 API Documentation | وثائق API
+
+للحصول على وثائق API شاملة للمطورين والتكاملات:
+
+### 🔗 API References
+- 🌐 **[API Endpoints](docs/api/endpoints.md)** - قائمة شاملة بنقاط النهاية
+- 🔐 **[API Authentication](docs/api/authentication.md)** - دليل المصادقة والأمان
+- 📊 **[Data Models](docs/api/data-models.md)** - نماذج البيانات والاستجابات
+- 🚀 **[API Examples](docs/api/examples.md)** - أمثلة عملية للاستخدام
+
+### 🛠️ API Features
+- RESTful API design
+- JSON request/response format
+- Rate limiting and quotas
+- Error handling and status codes
+- Webhook support for real-time updates
+
+---
+
+## 🔧 Database Schema | مخطط قاعدة البيانات
+
+### 📋 Database Documentation
+- 🗂️ **[Entity Relationship Diagram](docs/database/erd.md)** - مخطط العلاقات
+- 📊 **[Table Structures](docs/database/tables.md)** - هيكل الجداول التفصيلي
+- 🔍 **[Indexing Strategy](docs/database/indexing.md)** - استراتيجية الفهرسة
+- 💾 **[Migration Guide](docs/database/migrations.md)** - دليل الترقية والنسخ الاحتياطي
+
+### 🗄️ Database Features
+- Room Database with Kotlin
+- Automatic schema migrations
+- Data encryption at rest
+- Backup and restore capabilities
+- Offline-first data synchronization
+
+---
+
+## 🧪 Testing Documentation | وثائق الاختبار
+
+### ✅ Testing Guides
+- 🧩 **[Unit Tests](docs/testing/unit-tests.md)** - اختبارات الوحدات
+- 🔗 **[Integration Tests](docs/testing/integration.md)** - اختبارات التكامل
+- 🎯 **[UI Tests](docs/testing/ui-tests.md)** - اختبارات واجهة المستخدم
+- 📊 **[Testing Best Practices](docs/testing/best-practices.md)** - أفضل الممارسات
+
+### 🧪 Testing Features
+- Comprehensive test coverage
+- Mock data generation
+- Performance testing
+- Automated testing pipeline
+- Code quality metrics
+
+---
+
+## 🚨 Troubleshooting & FAQ | استكشاف الأخطاء والأسئلة الشائعة
+
+### ❓ Common Issues
+- 🔧 **[Setup Problems](docs/faq/setup-issues.md)** - مشاكل التثبيت والإعداد
+- 🌐 **[Network Issues](docs/faq/network-problems.md)** - مشاكل الشبكة والمزامنة
+- 💾 **[Data Issues](docs/faq/data-problems.md)** - مشاكل البيانات والنسخ الاحتياطي
+- 🔐 **[Permission Issues](docs/faq/permission-problems.md)** - مشاكل الصلاحيات والوصول
+
+### 💡 FAQ Sections
+- 📱 **[General Questions](docs/faq/general.md)** - أسئلة عامة
+- 🚀 **[Performance](docs/faq/performance.md)** - الأداء والتحسين
+- 🔒 **[Security](docs/faq/security.md)** - الأمان والخصوصية
+- 🛠️ **[Development](docs/faq/development.md)** - التطوير والمساهمة
+
+### 🔍 Quick Solutions
+- **مزامنة البيانات**: تحقق من اتصال الإنترنت وأعد المحاولة
+- **مشاكل الطباعة**: تأكد من تثبيت تعريفات الطابعة الصحيحة
+- **بطء التطبيق**: أعد تشغيل التطبيق وقاعدة البيانات
+- **مشاكل النسخ الاحتياطي**: تحقق من مساحة التخزين المتاحة
