@@ -107,6 +107,101 @@ com.businessmanagement/
 
 For detailed documentation, please check out our [Documentation Wiki](docs/README.md).
 
+## 🚀 Advanced Features | الميزات المتقدمة
+
+### 🌐 Online Orders & Integration | الطلبات عبر الإنترنت والتكامل
+- **إدارة الطلبات متعددة القنوات | Multi-channel Order Management**
+  - بوت تيليجرام لإنشاء وتتبع الطلبات
+    - Telegram Bot for order placement and tracking
+  - بوابة ويب للعملاء التجاريين
+    - Web portal for business customers
+  - أتمتة سير العمل باستخدام n8n
+    - n8n workflow automation for order processing
+  - تحديثات حالة الطلب في الوقت الفعلي
+    - Real-time order status updates
+
+### 🔒 Advanced Security & Access Control | الأمان المتقدم والتحكم في الوصول
+- **التحكم في الوصول القائم على الأدوار | Role-Based Access Control (RBAC)**
+  - أدوار محددة مسبقًا (مدير، مشرف، أمين صندوق، موظف)
+    - Predefined roles (Admin, Manager, Cashier, Employee)
+  - إنشاء أدوار مخصصة مع أذونات مفصلة
+    - Custom role creation with granular permissions
+  - تحكم في الوصول محدد لكل فرع
+    - Branch-specific access control
+  - إدارة الجلسات وسجلات التدقيق
+    - Session management and audit logs
+
+### 🤖 Face Recognition | التعرف على الوجه
+- مصادقة الموظفين باستخدام ML Kit
+  - Employee authentication using ML Kit
+- تسجيل دخول آمن بالتعرف على الوجه
+  - Secure login with facial recognition
+- تتبع الحضور مع الطوابع الزمنية
+  - Attendance tracking with timestamps
+- إجراءات مضادة للاحتيال لتعزيز الأمان
+  - Anti-spoofing measures for enhanced security
+
+### 🏢 Multi-Branch Management | إدارة الفروع المتعددة
+- تحكم مركزي مع استقلالية على مستوى الفرع
+  - Centralized control with branch-level autonomy
+- نقل المخزون بين الفروع
+  - Stock transfer between branches
+- تقارير موحدة لجميع المواقع
+  - Consolidated reporting across locations
+- إعدادات وأسعار خاصة بكل فرع
+  - Branch-specific settings and pricing
+
+### 🎁 Loyalty & Promotions | الولاء والعروض الترويجية
+- برنامج ولاء العملاء مع نظام النقاط
+  - Customer loyalty program with points system
+- نظام خصومات مرن
+  - Flexible discount management
+  - خصومات على مستوى المنتج/الفئة
+    - Product/category-level discounts
+  - عروض ترتبط بمواعيد محددة
+    - Time-based promotions
+  - دعم أكواد الخصم
+    - Coupon code support
+- مستويات عضوية متدرجة
+  - Tiered membership levels
+
+### 🏗️ Technical Excellence | التميز التقني
+- **هندسة تعمل دون اتصال بالإنترنت | Offline-First Architecture**
+  - وظائف كاملة بدون اتصال بالإنترنت
+    - Full functionality without internet
+  - مزامنة تلقائية عند استعادة الاتصال
+    - Automatic sync when connection is restored
+  - حل التعارضات لضمان اتساق البيانات
+    - Conflict resolution for data consistency
+
+- **حماية البيانات | Data Protection**
+  - تشفير من طرف إلى طرف
+    - End-to-end encryption
+  - نسخ احتياطي واستعادة آمن
+    - Secure backup and restore
+  - الامتثال لأنظمة حماية البيانات
+    - Compliance with data protection regulations
+
+## 📱 Platform Support | دعم المنصات
+- أندرويد 8.0 فما فوق (مستوى API 26+)
+  - Android 8.0+ (API level 26+)
+- مُحسّن للأجهزة اللوحية والهواتف
+  - Optimized for tablets and phones
+- يدعم أحجام وتوجهات الشاشات المتعددة
+  - Support for multiple screen sizes and orientations
+- يدعم السمة الداكنة والفاتحة
+  - Dark/Light theme support
+
+## 📊 Reporting & Analytics | التقارير والتحليلات
+- رؤى أعمال فورية
+  - Real-time business insights
+- إنشاء تقارير مخصصة
+  - Custom report generation
+- تصدير إلى تنسيقات متعددة (PDF، Excel، CSV)
+  - Export to multiple formats (PDF, Excel, CSV)
+- إرسال التقارير المجدولة
+  - Scheduled report delivery
+
 ## 🤝 Contributing
 
 1. Fork the project
