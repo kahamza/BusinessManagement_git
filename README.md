@@ -290,8 +290,6 @@ com.businessmanagement/
 
 ---
 
-## 🔄 Implementation Details### 🔄 تفاصيل التنفيذ | Implementation Details
+## 🔄 Implementation Details
 
 للحصول على تفاصيل تقنية شاملة حول تنفيذ التطبيق، راجع [دليل التفاصيل التقنية والتنفيذ](docs/implementation/technical-implementation.md).
-
-For comprehensive technical implementation details, refer to the [Technical Implementation Guide](docs/implementation/technical-implementation.md).
